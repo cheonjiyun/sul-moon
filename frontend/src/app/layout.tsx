@@ -1,9 +1,57 @@
+import localFont from "next/font/local";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const freesentaion = localFont({
+    src: [
+        {
+            path: "../fonts/Freesentation-1Thin.ttf",
+            weight: "100",
+            style: "normal",
+        },
+        {
+            path: "../fonts/Freesentation-2ExtraLight.ttf",
+            weight: "200",
+            style: "normal",
+        },
+        {
+            path: "../fonts/Freesentation-3Light.ttf",
+            weight: "300",
+            style: "normal",
+        },
+        {
+            path: "../fonts/Freesentation-4Regular.ttf",
+            weight: "400",
+            style: "normal",
+        },
+        {
+            path: "../fonts/Freesentation-5Medium.ttf",
+            weight: "500",
+            style: "normal",
+        },
+        {
+            path: "../fonts/Freesentation-6SemiBold.ttf",
+            weight: "600",
+            style: "normal",
+        },
+        {
+            path: "../fonts/Freesentation-7Bold.ttf",
+            weight: "700",
+            style: "normal",
+        },
+        {
+            path: "../fonts/Freesentation-8ExtraBold.ttf",
+            weight: "800",
+            style: "normal",
+        },
+        {
+            path: "../fonts/Freesentation-9Black.ttf",
+            weight: "900",
+            style: "normal",
+        },
+    ],
+});
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -17,7 +65,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ko">
-            <body className={inter.className}>
+            <body className={freesentaion.className}>
                 <Header />
                 {children}
             </body>

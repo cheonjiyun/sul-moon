@@ -7,7 +7,7 @@ export const Header = () => {
     return (
         <header className="h-16 flex justify-between items-center">
             <Link href="/">
-                <Image src="/asset/img/logo.svg" alt="설문로고" width={160} height={66} />
+                <Image src="/img/logo.svg" alt="설문로고" width={160} height={66} />
             </Link>
             <Link className="p-5" href="/login">
                 <div className="sm lg:hidden">
