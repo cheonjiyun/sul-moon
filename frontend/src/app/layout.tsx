@@ -65,7 +65,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ko">
-            <body className={freesentaion.className}>
+            <body className={`${freesentaion.className} h-lvh`}>
                 <Header />
                 {children}
             </body>
