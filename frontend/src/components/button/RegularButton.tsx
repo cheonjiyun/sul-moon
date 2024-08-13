@@ -1,11 +1,11 @@
 import React from "react";
 
-interface PropsType {
+interface RegularButtonProps {
     text: string;
     disalbed?: boolean;
 }
 
-export default function RegularButton({ text, disalbed = false }: PropsType) {
+export default function RegularButton({ text, disalbed = false }: RegularButtonProps) {
     return (
         <button
             disabled={disalbed}
