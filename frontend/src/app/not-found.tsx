@@ -11,7 +11,7 @@ export default function NotFound() {
             </div>
             <Link
                 href="/"
-                className="py-4 px-9 bg-[#FFC554] rounded-2xl text-2xl font-bold text-[#141414] transition-all duration-100 hover:brightness-95 active:scale-[0.99]"
+                className="py-4 px-9 bg-primary-300 rounded-2xl text-2xl font-bold text-primary-900 transition-all duration-100 hover:brightness-95 active:scale-[0.99]"
             >
                 홈으로
             </Link>

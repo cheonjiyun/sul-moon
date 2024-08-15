@@ -9,7 +9,7 @@ export default function RegularButton({ text, disalbed = false }: RegularButtonP
     return (
         <button
             disabled={disalbed}
-            className="py-3 w-full bg-[#FFC554] rounded-md text-lg font-medium text-[#141414] transition-all duration-100 enabled:hover:brightness-95 enabled:active:scale-[0.99] disabled:bg-[#EAEAEA] disabled:text-[#797979]"
+            className="py-3 w-full bg-primary-300 rounded-md text-lg font-medium text-primary-900 transition-all duration-100 enabled:hover:brightness-95 enabled:active:scale-[0.99] disabled:bg-gray-200 disabled:text-gray-900"
         >
             {text}
         </button>
