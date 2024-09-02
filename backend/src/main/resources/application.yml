@@ -1,0 +1,8 @@
+#spring.application.name=sul-moon
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/sul_moon?serverTimezone=UTC&characterEncoding=UTF-8
+        username: root
+        password: 12349133
