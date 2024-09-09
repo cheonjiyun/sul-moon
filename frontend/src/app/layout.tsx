@@ -67,7 +67,7 @@ export default function RootLayout({
         <html lang="ko">
             <body className={`${freesentaion.className} h-lvh`}>
                 <Header />
-                {children}
+                <div className="p-2 pt-14 h-dvh-header">{children}</div>
             </body>
         </html>
     );
